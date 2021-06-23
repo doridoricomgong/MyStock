@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content"
+    a:orientation="vertical">
+
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="match_parent">
+
+        <TextView
+            a:id="@+id/stock_list_title"
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content"
+            a:layout_alignParentLeft="true"
+            a:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin"
+            a:paddingBottom="@dimen/activity_horizontal_margin"
+            a:textColor="@android:color/black" />
+
+        <Button
+            a:id="@+id/stock_chart"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignBottom="@id/stock_list_title"
+            a:layout_alignTop="@id/stock_list_title"
+            a:layout_centerVertical="true"
+            a:layout_toLeftOf="@+id/stock_buy"
+            a:background="#00ff0000"
+            a:minHeight="0dp"
+            a:minWidth="0dp"
+            a:text="chart"
+            a:textColor="#0000ff" />
+
+        <Button
+            a:id="@+id/stock_buy"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignBottom="@id/stock_list_title"
+            a:layout_alignTop="@id/stock_list_title"
+            a:layout_centerVertical="true"
+            a:layout_toLeftOf="@+id/stock_alarm"
+            a:layout_marginLeft="16dp"
+            a:background="#00ff0000"
+            a:minHeight="0dp"
+            a:minWidth="0dp"
+            a:text="@string/buy"
+            a:textColor="@android:color/holo_red_dark" />
+
+        <Button
+            a:id="@+id/stock_alarm"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignBottom="@id/stock_list_title"
+            a:layout_alignTop="@id/stock_list_title"
+            a:layout_centerVertical="true"
+            a:layout_marginLeft="@dimen/activity_horizontal_margin"
+            a:layout_toLeftOf="@+id/stock_add"
+            a:background="#00ff0000"
+            a:minHeight="0dp"
+            a:minWidth="0dp"
+            a:text="@string/alarm"
+            a:textColor="@android:color/holo_blue_dark" />
+
+        <Button
+            a:id="@+id/stock_add"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignBottom="@id/stock_list_title"
+            a:layout_alignParentRight="true"
+            a:layout_alignTop="@id/stock_list_title"
+            a:layout_centerVertical="true"
+            a:layout_marginLeft="@dimen/activity_horizontal_margin"
+            a:layout_marginRight="@dimen/activity_horizontal_margin"
+            a:background="#00ff0000"
+            a:minHeight="0dp"
+            a:minWidth="0dp"
+            a:text="@string/add" />
+
+    </RelativeLayout>
+</LinearLayout>

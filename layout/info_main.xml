@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="12dp"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="30dp"
+            android:text="개발 정보"
+            android:drawableLeft="@drawable/ic_baseline_check_24"
+            android:drawablePadding="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="\n - 주식 정보 실시간 조회
+            \n\n - 한국투자 증권 로그인 구현
+            \n\n - 한국투자 증권 주문 조회
+            \n\n - 한국투자 증권 자금 조회
+            \n\n - 한국투자 증권 매도,매수 구현"
+            android:textSize="20dp"/>
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

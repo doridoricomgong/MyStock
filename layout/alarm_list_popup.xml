@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#4444ff">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="53dp"
+            android:text="알람 리스트"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#fff">
+        </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ListView
+            android:id="@+id/alarm_list"
+            android:layout_width="300dp"
+            android:layout_height="250dp">
+
+        </ListView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/listCancelButton"
+            android:text="닫기"
+            android:textSize="15sp"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:background="#ffffff"
+            android:layout_marginLeft="6dp"
+            android:layout_width="wrap_content"
+            android:layout_height="53dp"
+            android:layout_weight="1"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

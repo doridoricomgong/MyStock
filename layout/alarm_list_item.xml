@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content"
+    a:orientation="vertical">
+
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="match_parent">
+
+        <TextView
+            a:id="@+id/content"
+            a:layout_width="fill_parent"
+            a:layout_height="wrap_content"
+            a:layout_alignParentLeft="true"
+            a:layout_marginLeft="0dp"
+            a:paddingLeft="?android:attr/expandableListPreferredItemPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin"
+            a:paddingBottom="@dimen/activity_horizontal_margin"
+            a:textColor="@android:color/black" />
+
+        <TextView
+            a:id="@+id/text_low_rate"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_toLeftOf="@+id/text_high_rate"
+            a:layout_alignTop="@id/content"
+            a:layout_alignBottom="@id/content"
+            a:gravity="center"
+            a:text="low"
+            a:textColor="@android:color/holo_blue_light"/>
+
+        <TextView
+            a:id="@+id/text_high_rate"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_toLeftOf="@+id/alarm_remove"
+            a:layout_alignTop="@id/content"
+            a:layout_centerVertical="true"
+            a:layout_alignBottom="@id/content"
+            a:layout_marginLeft="16dp"
+            a:gravity="center"
+            a:text="high"
+            a:textColor="@android:color/holo_red_light"></TextView>
+
+        <Button
+            a:id="@+id/alarm_remove"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignBottom="@id/content"
+            a:layout_alignParentRight="true"
+            a:layout_alignTop="@id/content"
+            a:layout_centerVertical="true"
+            a:layout_marginLeft="@dimen/activity_horizontal_margin"
+            a:layout_marginRight="@dimen/activity_horizontal_margin"
+            a:background="#00ff0000"
+            a:minHeight="0dp"
+            a:minWidth="0dp"
+            a:textSize="20dp"
+            a:textColor="@android:color/black"
+            a:text="@string/remove" />
+
+    </RelativeLayout>
+</LinearLayout>

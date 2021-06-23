@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    a:layout_width="match_parent"
+    a:layout_height="wrap_content"
+    a:orientation="vertical"
+    a:background="@android:color/white">
+
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content">
+
+        <TextView
+            a:id="@+id/stock_expanded_code_title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentLeft="true"
+            a:paddingBottom="@dimen/activity_horizontal_margin"
+            a:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin"
+            a:text="@string/expanded_code_title" />
+
+        <TextView
+            a:id="@+id/stock_expanded_code"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentRight="true"
+            a:paddingRight="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin"
+            a:paddingBottom="@dimen/activity_horizontal_margin" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content">
+
+        <TextView
+            a:id="@+id/stock_expanded_pre_price_title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentLeft="true"
+            a:paddingBottom="@dimen/activity_horizontal_margin"
+            a:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin"
+            a:text="@string/expanded_pre_title" />
+
+        <TextView
+            a:id="@+id/stock_expanded_pre_price"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentRight="true"
+            a:paddingRight="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content">
+
+        <TextView
+            a:id="@+id/stock_expanded_high_title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentLeft="true"
+            a:paddingBottom="@dimen/activity_horizontal_margin"
+            a:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin"
+            a:text="@string/expanded_high_title" />
+
+        <TextView
+            a:id="@+id/stock_expanded_high_price"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentRight="true"
+            a:paddingRight="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content">
+
+        <TextView
+            a:id="@+id/stock_expanded_low_title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentLeft="true"
+            a:paddingBottom="@dimen/activity_horizontal_margin"
+            a:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin"
+            a:text="@string/expanded_low_title" />
+
+        <TextView
+            a:id="@+id/stock_expanded_low_price"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentRight="true"
+            a:paddingRight="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content">
+
+        <TextView
+            a:id="@+id/stock_expanded_start_title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentLeft="true"
+            a:paddingBottom="@dimen/activity_horizontal_margin"
+            a:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin"
+            a:text="@string/expanded_start_title" />
+
+        <TextView
+            a:id="@+id/stock_expanded_start_price"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentRight="true"
+            a:paddingRight="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content">
+
+        <TextView
+            a:id="@+id/stock_expanded_rate_title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentLeft="true"
+            a:paddingBottom="@dimen/activity_horizontal_margin"
+            a:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin"
+            a:text="@string/expanded_fluc_rate_title" />
+
+        <TextView
+            a:id="@+id/stock_expanded_rate_price"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentRight="true"
+            a:paddingRight="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content">
+
+        <TextView
+            a:id="@+id/stock_expanded_v_price_title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentLeft="true"
+            a:paddingBottom="@dimen/activity_horizontal_margin"
+            a:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin"
+            a:text="@string/expanded_fluc_amount_title" />
+
+        <TextView
+            a:id="@+id/stock_expanded_v_price"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentRight="true"
+            a:paddingRight="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        a:layout_width="match_parent"
+        a:layout_height="wrap_content">
+
+        <TextView
+            a:id="@+id/stock_expanded_trade_amount_title"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentLeft="true"
+            a:paddingBottom="@dimen/activity_horizontal_margin"
+            a:paddingLeft="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin"
+            a:text="@string/expanded_trade_amount_title" />
+
+        <TextView
+            a:id="@+id/stock_expanded_trade_amount"
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:layout_alignParentRight="true"
+            a:paddingRight="?android:attr/expandableListPreferredChildPaddingLeft"
+            a:paddingTop="@dimen/activity_horizontal_margin" />
+
+    </RelativeLayout>
+
+</LinearLayout>

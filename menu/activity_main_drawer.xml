@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group a:checkableBehavior="single">
+        <item
+            a:id="@+id/menu_main"
+            a:icon="@drawable/ic_baseline_bar_chart_24"
+            a:title="Main" />
+        <item
+            a:id="@+id/menu_interest"
+            a:icon="@drawable/ic_menu_slideshow"
+            a:title="Interest" />
+        <item
+            a:id="@+id/menu_account"
+            a:icon="@drawable/ic_menu_share"
+            a:title="Account" />
+
+        <!--item
+            a:id="@+id/menu_stock"
+            a:icon="@drawable/ic_menu_gallery"
+            a:title="All Stocks" /-->
+    </group>
+
+    <item a:title="Communicate">
+        <menu>
+            <!--item
+                a:id="@+id/menu_stock"
+                a:icon="@drawable/ic_menu_gallery"
+                a:title="All Stocks" /-->
+            <item
+                a:id="@+id/menu_info"
+                a:icon="@drawable/ic_menu_send"
+                a:title="Info" />
+        </menu>
+    </item>
+
+</menu>

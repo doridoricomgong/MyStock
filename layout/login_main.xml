@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.DrawerLayout xmlns:a="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    a:id="@+id/drawer_layout"
+    a:layout_width="match_parent"
+    a:layout_height="match_parent"
+    a:fitsSystemWindows="true"
+    a:background="@mipmap/background_hantoo"
+    tools:openDrawer="start">
+
+    <android.support.v7.widget.LinearLayoutCompat
+        a:layout_width="wrap_content"
+        a:layout_height="wrap_content"
+        a:orientation="vertical"
+        a:gravity="bottom"
+        >
+
+        <android.support.v7.widget.AppCompatImageButton
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:id="@+id/login_guest"
+            a:onClick="guestLoginClick"
+            a:layout_gravity="center"
+            a:layout_marginBottom="@dimen/fab_margin"
+            a:background="@mipmap/login_hantoo"/>
+
+        <android.support.v7.widget.AppCompatImageButton
+            a:layout_width="wrap_content"
+            a:layout_height="wrap_content"
+            a:id="@+id/login_naver"
+            a:onClick="hantooLoginClick"
+            a:layout_gravity="center"
+            a:layout_marginBottom="@dimen/fab_margin"
+            a:background="@mipmap/login_hantoo2" />
+    </android.support.v7.widget.LinearLayoutCompat>
+
+</android.support.v4.widget.DrawerLayout>
